@@ -4,9 +4,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Factory.Models;
+using Bakery.Models;
 
-namespace Factory
+namespace Bakery
 {
   public class Startup
   {
@@ -25,7 +25,7 @@ namespace Factory
       services.AddMvc();
 
       services.AddEntityFrameworkMySql()
-        .AddDbContext<FactoryContext>(options => options
+        .AddDbContext<BakeryContext>(options => options
         .UseMySql(Configuration["ConnectionStrings:DefaultConnection"], ServerVersion.AutoDetect(Configuration["ConnectionStrings:DefaultConnection"])));
     }
 
