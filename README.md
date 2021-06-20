@@ -42,7 +42,7 @@ Table of Contents
 
 ### Installation of Program
 * _Open the terminal on your local machine and navigate to "Desktop."_
-* _Clone "Factory.Solution"" with the following git command `git clone https://github.com/GBProductions/Bakery2.Solution`
+* _Clone "Bakery.Solution"" with the following git command `git clone https://github.com/GBProductions/Bakery2.Solution`
 * _Navigate to the top level of the repository with the command `cd Bakery2.Solution`_
 * _Navigate into "Bakery" with git command `cd Bakery2`_
 
